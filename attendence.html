@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <table border="1px">
+        <tr>
+            <td>Ayesha</td>
+            <td>2nd grade</td>
+            <td>8nebc55</td>
+            <td id="att">p</td>
+        </tr>
+        <tr>
+            <td>jbgsha</td>
+            <td>2nd grade</td>
+            <td>87hsdc55</td>
+            <td id="att">p</td>
+        </tr>
+        <tr>
+            <td>oieohsha</td>
+            <td>2nd grade</td>
+            <td>00osnc55</td>
+            <td id="att">A</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+<script>
+    let today_att=document.getElementById("att")
+
+    for (const a of today_att) {
+        if (a.innerHTML="p") {
+            a.style.color="Green"
+        }
+        else if (a.innerHTML="A") {
+            a.style.color="Red"
+        }
+    }
+</script>
